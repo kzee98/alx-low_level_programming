@@ -4,7 +4,7 @@
 
 /**
  * main - Prints last digit of number
- *   	  and check if greater than 5, less than 6, or 0.
+ *	and check if greater than 5, less than 6, or 0.
  *
  * Return: Always 0.
  */
