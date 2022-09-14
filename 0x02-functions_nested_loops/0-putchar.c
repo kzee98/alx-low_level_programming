@@ -1,4 +1,6 @@
 #include <unistd.h>
+#include "main.h"
+
 /**
  * main - Entry point
  *
@@ -6,16 +8,23 @@
  */
 int main(void)
 {
-	char h[] = "komborero";
-	int m;
+	char ch[8] = "_putchar";
+		int i = 0;
+		char c;
 
-	m = 0;
+		while(i<= 8){
+			c = ch[i];
+			_putchar(c);
+			i++;
 
-	while (m <= 8)
-	{
-		_putchar(h[m]);
-		m++;
-	}
+}
+{
 	_putchar('\n');
+
 	return (0);
+}
+
+int _putchar(char c)
+{
+return (write(1, &c, 1));
 }
