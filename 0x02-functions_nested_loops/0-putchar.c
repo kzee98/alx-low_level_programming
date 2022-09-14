@@ -1,5 +1,4 @@
-#include"main.h"
-/**
+#include"main.h"/**
 *main-printsputchar 
 *Return:always 0
 */
