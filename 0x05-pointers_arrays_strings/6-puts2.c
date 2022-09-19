@@ -3,7 +3,7 @@
 /**
  * puts2 - (char *str);
  * @str: string characters
- * /
+ */
 void puts2(char *str)
 {
 	int index = 0, len = 0;
