@@ -3,6 +3,7 @@
 /**
  * puts2 - (char *str);
  * @str: string characters
+ * Return: void
  */
 void puts2(char *str)
 {
@@ -14,5 +15,4 @@ void puts2(char *str)
 		_putchar(str[index]);
 	
 	_putchar('\n');
-	return 0;
 }
