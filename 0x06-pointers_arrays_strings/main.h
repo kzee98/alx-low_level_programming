@@ -1,11 +1,15 @@
 #ifndef MAIN_H
 #define MAIN_H
+
+#include <stddef.h>
 #include <stdio.h>
+
 /**
  * void prototypes()
  * int prototypes()
  * char prototypes()
  */
+
 void reverse _array/(int *a, int n);
 void print_number(int n);
 void print_buffer(char *b, int size);
@@ -21,4 +25,3 @@ char *infinite_add(char *n1, char *n2, char *r, int size _r);
 char *add _strings(char *n1, char *n2, char *r, int r_index);
 
 #endif /*MAIN_H*/
-
