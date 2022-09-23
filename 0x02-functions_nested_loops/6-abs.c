@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _abs - print
- * @n: cd
- * Return: values
+ * _abs - kljfhd
+ * @n: djf
+ * Return: dkfjh
  */
 int _abs(int n)
 {
